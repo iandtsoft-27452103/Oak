@@ -64,13 +64,9 @@ This software use the records on the internet download by myself.
 
 (2) Memory: 16GB or more. About 32GB is recommended.
 
-(3) Memory usage on C# side: Less than 200MB when the MCTS task is 8.
+(3) .NET Version: .NET 8.0
 
-(4) .NET Version: .NET 8.0
-
-(5) Memory usage on the PyTorch side: About 4.4 GB. It is slightly heavy.
-
-(6) TorchSharp-cuda-windows version: 0.105.0
+(4) TorchSharp-cuda-windows version: 0.105.0
 
 ## Known problems
 

@@ -17,11 +17,11 @@ namespace Achernar
             Hash.IniRand(5489U);
             Hash.IniRandomTable();
 
-            TrainDeep t = new TrainDeep();
+            //TrainDeep t = new TrainDeep();
             //t.TrainPolicy(0, false, false, 64);
             //t.TrainValue(0, false, false, 64);
             //t.PredictPolicy();
-            short[] ss = { 0, 1, 2, 0, 1, 2 };
+            /*short[] ss = { 0, 1, 2, 0, 1, 2 };
             var x = ss.Select(x => x * 2).ToArray();
             var y = ss.ToList();
             var z = y.FindIndex(x => x == 2);
@@ -29,7 +29,7 @@ namespace Achernar
             var n = 4;
 
             var ssss = sss.Aggregate((a, b) => Math.Abs(b - n) < Math.Abs(a - n) ? b : a);
-            var sssss = sss.Intersect(sss).ToArray();
+            var sssss = sss.Intersect(sss).ToArray();*/
             //Evaluate eval = new Evaluate();
             //eval.RandomInit();
             //eval.SaveFV();
